@@ -7,7 +7,7 @@ import os
 
 
 # Function for sending emails via outlook
-def email_now_outlook(message: str = None, subject: str = None):
+def email_outlook(message: str = None, subject: str = None):
     mail_user = os.getenv('MAIL_USER_OUTLOOK')
     mail_key = os.getenv('MAIL_PASS_OUTLOOK')
     mail_server = "smtp-mail.outlook.com"
