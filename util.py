@@ -25,3 +25,4 @@ def email_now_outlook(message: str = None, subject: str = None):
     server.login(mail_user, mail_key)
     server.sendmail(mail_user, mail_user, body.as_string())
     server.quit()
+    
