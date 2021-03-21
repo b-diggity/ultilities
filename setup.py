@@ -7,7 +7,7 @@ with open("README.md", "r") as readme_file:
 
 setup(
     name="utilities",
-    version="0.0.1",
+    version="0.0.3",
     author="b-diggity",
     description="Utilities to include in Python scripts",
     long_description=readme,
