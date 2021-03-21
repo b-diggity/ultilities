@@ -7,7 +7,12 @@ import os
 
 
 # Function for sending emails via outlook
-def email_outlook(message: str = None, subject: str = None, username: str = None, password: str = None):
+def email_outlook(
+    message: str = None,
+    subject: str = None,
+    username: str = None,
+    password: str = None
+):
     if username is None:
         mail_user = os.getenv('MAIL_USER_OUTLOOK')
     if password is None:
